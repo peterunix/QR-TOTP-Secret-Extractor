@@ -1,4 +1,4 @@
-#+TITLE: Project Name
+#+TITLE: Python QR TOTP Secret Extractor
 
 * What it does
 Prompts user for filepath to a valid TOTP QR code. The image file is decoded and
