@@ -17,7 +17,7 @@ pip install -r requirements.txt
 * How to use
 
 #+begin_src shell
-python qr-to-secret-extractory.py
+$ python qr-to-secret-extractor.py
 Enter the path to a TOTP PNG or JPG file: sample_qr.png
 TOTP URI: otpauth://totp/totp@authenticationtest.com?secret=I65VU7K5ZQL7WB4E
 Secret key: I65VU7K5ZQL7WB4E
