@@ -1,0 +1,25 @@
+#+TITLE: Project Name
+
+* What it does
+Prompts user for filepath to a valid TOTP QR code. The image file is decoded and
+the TOTP URL + Secret Key is printed to stdout
+
+* How to install
+Debian based distros require the ~libzbar-dev~ package installed. I believe
+Windows needs the libraries as well before running the next command
+
+#+begin_src python
+git clone https://peterunix/QR-TOTP-Secret-Extractor
+cd QR-TOTP-Secret-Extractor
+pip install -r requirements.txt
+#+end_src
+
+* How to use
+
+#+begin_src shell
+python qr-to-secret-extractory.py
+Enter the path to a TOTP PNG or JPG file: sample_qr.png
+TOTP URI: otpauth://totp/totp@authenticationtest.com?secret=I65VU7K5ZQL7WB4E
+Secret key: I65VU7K5ZQL7WB4E
+#+end_src
+
