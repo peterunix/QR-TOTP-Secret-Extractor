@@ -8,7 +8,7 @@ the TOTP URL + Secret Key is printed to stdout
 Debian based distros require the ~libzbar-dev~ package installed. I believe
 Windows needs the libraries as well before running the next command
 
-#+begin_src python
+#+begin_src shell
 git clone https://peterunix/QR-TOTP-Secret-Extractor
 cd QR-TOTP-Secret-Extractor
 pip install -r requirements.txt
